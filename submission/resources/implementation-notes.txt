@@ -1,0 +1,25 @@
+IMPLEMENTATION NOTES
+
+1. Dynamic Content
+- Implemented using a JavaScript array of objects.
+- Services are displayed dynamically using the forEach() loop and appended to the page.
+
+2. Add and Remove Elements
+- Created a Workout Wishlist feature.
+- Users can add workouts using an input field and button.
+- Each workout has a Remove button that deletes it from the list.
+
+3. Form Handling and Validation
+- Used event.preventDefault() to stop the form from refreshing the page.
+- Retrieved user input using .value.
+- Displayed success or error messages using textContent.
+
+4. Local Storage
+- Used localStorage to save the workout wishlist and the visitor's name.
+- Saved data is automatically loaded when the page is refreshed.
+
+5. Banner Click-to-Reveal
+- Added a hidden caption below the banner image.
+- Clicking the banner toggles the caption using classList.toggle().
+
+All JavaScript code is contained in submission/js/script.js using vanilla JavaScript only.

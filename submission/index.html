@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyril Fitness Trainer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Cyril Fitness Trainer</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#wishlist">Wishlist</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+    <img id="banner"
+         src="images/banner.jpg"
+         alt="Fitness Trainer">
+
+    <div id="bannerCaption" class="caption hidden">
+        <h3>Welcome!</h3>
+
+        <p>
+            Helping clients achieve healthier,
+            stronger and happier lifestyles.
+        </p>
+    </div>
+
+    <h2>Transform Your Fitness Journey</h2>
+
+    <p>
+        Professional coaching for weight loss,
+        muscle building and healthy living.
+    </p>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am a certified fitness trainer with over
+        five years of experience helping clients
+        achieve their personal fitness goals.
+    </p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+    <h2>Services</h2>
+
+    <div id="serviceList" class="service-grid">
+
+    </div>
+
+</section>
+
+<!-- WISHLIST -->
+
+<section id="wishlist">
+
+    <h2>Workout Wishlist</h2>
+
+    <input
+        type="text"
+        id="itemInput"
+        placeholder="Enter workout">
+
+    <button id="addBtn">
+        Add Workout
+    </button>
+
+    <ul id="itemList">
+
+    </ul>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+
+<section id="achievements">
+
+    <h2>Achievements</h2>
+
+    <div class="achievement-grid">
+
+        <div class="card">
+            <h3>200+</h3>
+            <p>Clients Trained</p>
+        </div>
+
+        <div class="card">
+            <h3>5 Years</h3>
+            <p>Experience</p>
+        </div>
+
+        <div class="card">
+            <h3>95%</h3>
+            <p>Client Satisfaction</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Your Email">
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 Cyril Fitness Trainer</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
